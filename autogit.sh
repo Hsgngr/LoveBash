@@ -11,9 +11,6 @@ then
 fi
 
 git commit -m "${COMMENT}"
-git push &
-process_id=$!
-echo "PID: $process_id"
-wait $process_id
-echo ege
+git push 
+printf "y\ege\n"
 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
