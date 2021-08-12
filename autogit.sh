@@ -11,6 +11,4 @@ then
 fi
 
 git commit -m "${COMMENT}"
-git push 
-printf "y\ege\n"
-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
+git push https://ege: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@myrepository.biz/file.git --all
